@@ -11,8 +11,54 @@
     content="ie=edge"
   >
   <title>Проектная работа «Оно тебе надо»</title>
+  <link rel="stylesheet" href="src/styles/main.css">
 </head>
 <body>
-
+<header class="header container--small">
+  <nav class="header__menu">
+    <ul class="header__links-list">
+      <li class="header__links-list-item no-bullit">
+        <a class="header__link" href="/">главная</a>
+      </li>
+      <li class="header__links-list-item">
+        <a class="header__link" href="/">посмотреть лоты</a>
+      </li>
+      <li class="header__links-list-item">
+        <a class="header__link" href="/">об аукционе</a>
+      </li>
+    </ul>
+  </nav>
+  <a class="header__logo" href="/">
+    <img
+      src="src/assets/icons/header-logo.svg"
+      class="header__logo-image"
+      alt="Логотип"
+      width="148"
+      height="105"
+    >
+  </a>
+  <address class="header__address">
+    <a href="tel:99995555555" class="header__link">+9 999 555 5555</a><br>
+    <a href="mailto:info@sobaka.ge" class="header__link">info@sobaka.ge</a><br>
+    <span class="header__link">наб. Принсенграхт 263-265, Амстердам</span>
+  </address>
+</header>
+<main class="main">
+  <section class="cover container--small">
+    <!--<div class="cover__overlay"></div>-->
+    <div class="cover__content">
+      <h1 class="cover__aligned-text">ОНО</h1>
+      <h1 class="cover__aligned-text aligned-text_center">ТЕБЕ</h1>
+      <h1 class="cover__aligned-text aligned-text_right">НАДО</h1>
+    </div>
+    <div class="cover__description">
+      <div class="cover__description-text">
+        <p>Аукцион вещей, вкоторые никто не верил</p>
+      </div>
+      <button class="cover__bet-button">Сделать ставку</button>
+    </div>
+  </section>
+</main>
+<footer class="footer">FOOTER</footer>
 </body>
 </html>

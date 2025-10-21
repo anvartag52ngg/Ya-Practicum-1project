@@ -1,0 +1,11 @@
+:root {
+  --font-family-base: 'Raleway', sans-serif;
+
+  --container-width--big: 1052px;
+  --container-padding-x--big: 24px;
+
+  --container-width--small: 1000px;
+  --container-padding-x--small: 50px;
+
+  --transition-duration: 0.2s;
+}
