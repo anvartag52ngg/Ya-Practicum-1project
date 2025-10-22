@@ -142,6 +142,14 @@ svg * {
   transition-duration: var(--transition-duration);
 }
 
+
+h1,
+h2,
+h3 {
+  font-weight: 700;
+  line-height: 100%;
+  text-transform: uppercase;
+}
 .container--big {
   max-width: calc(var(--container-width--big) + var(--container-padding-x--big) * 2 );
   margin-inline: auto;
